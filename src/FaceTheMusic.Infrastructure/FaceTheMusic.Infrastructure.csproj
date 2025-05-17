@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DefaultNamespace>FaceTheMusic.Infrastructure</DefaultNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaceTheMusic.Application\FaceTheMusic.Application.csproj" />
+  </ItemGroup>
+
+</Project>
