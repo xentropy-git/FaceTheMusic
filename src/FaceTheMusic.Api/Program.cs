@@ -1,11 +1,6 @@
-using Scalar.AspNetCore;
-using FaceTheMusic.Core.Repositories;
-using FaceTheMusic.Core.Repositories.Interfaces;
-using FaceTheMusic.Core.Services;
-using FaceTheMusic.Core.Services.Interfaces;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using FaceTheMusic.Infrastructure.Repositories;
+using FaceTheMusic.Domain.Interfaces;
+using FaceTheMusic.Domain.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

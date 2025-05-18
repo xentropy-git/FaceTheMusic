@@ -1,4 +1,4 @@
-namespace FaceTheMusic.Core.Models;
+namespace FaceTheMusic.Domain.Models;
 
 public record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {

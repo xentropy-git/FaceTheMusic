@@ -1,6 +1,6 @@
-using FaceTheMusic.Core.Models;
-using FaceTheMusic.Core.Repositories;
-using FaceTheMusic.Core.Services;
+using FaceTheMusic.Domain.Models;
+using FaceTheMusic.Infrastructure.Repositories;
+using FaceTheMusic.Domain.Services;
 using System.Linq;
 
 namespace FaceTheMusic.Tests;

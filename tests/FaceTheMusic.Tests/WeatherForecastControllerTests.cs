@@ -1,6 +1,6 @@
 using FaceTheMusic.Api.Controllers;
-using FaceTheMusic.Core.Models;
-using FaceTheMusic.Core.Services.Interfaces;
+using FaceTheMusic.Domain.Models;
+using FaceTheMusic.Domain.Interfaces;
 using Microsoft.Extensions.Logging;
 using Moq;
 using System.Collections.Generic;
