@@ -17,7 +17,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\FaceTheMusic.Api\FaceTheMusic.Api.csproj" />
-    <ProjectReference Include="..\..\src\FaceTheMusic.Core\FaceTheMusic.Core.csproj" />
+    <ProjectReference Include="..\..\src\FaceTheMusic.Domain\FaceTheMusic.Domain.csproj" />
+    <ProjectReference Include="..\..\src\FaceTheMusic.Infrastructure\FaceTheMusic.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

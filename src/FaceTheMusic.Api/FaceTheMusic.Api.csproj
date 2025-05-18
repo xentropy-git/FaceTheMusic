@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FaceTheMusic.Core\FaceTheMusic.Core.csproj" />
     <ProjectReference Include="..\FaceTheMusic.ServiceDefaults\FaceTheMusic.ServiceDefaults.csproj" />
     <ProjectReference Include="..\FaceTheMusic.Application\FaceTheMusic.Application.csproj" />
+    <ProjectReference Include="..\FaceTheMusic.Infrastructure\FaceTheMusic.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

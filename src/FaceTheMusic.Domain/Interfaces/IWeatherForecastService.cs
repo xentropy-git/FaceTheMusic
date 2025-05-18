@@ -1,6 +1,6 @@
-using FaceTheMusic.Core.Models;
+using FaceTheMusic.Domain.Models;
 
-namespace FaceTheMusic.Core.Services.Interfaces;
+namespace FaceTheMusic.Domain.Interfaces;
 
 public interface IWeatherForecastService
 {

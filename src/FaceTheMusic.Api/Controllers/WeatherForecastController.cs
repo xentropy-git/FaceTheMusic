@@ -1,5 +1,5 @@
-using FaceTheMusic.Core.Models;
-using FaceTheMusic.Core.Services.Interfaces;
+using FaceTheMusic.Domain.Models;
+using FaceTheMusic.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FaceTheMusic.Api.Controllers;

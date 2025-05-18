@@ -1,7 +1,7 @@
-using FaceTheMusic.Core.Models;
-using FaceTheMusic.Core.Repositories.Interfaces;
+using FaceTheMusic.Domain.Models;
+using FaceTheMusic.Domain.Interfaces;
 
-namespace FaceTheMusic.Core.Repositories;
+namespace FaceTheMusic.Infrastructure.Repositories;
 
 public class WeatherForecastRepository : IWeatherForecastRepository
 {
