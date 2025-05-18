@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FaceTheMusic.Api\FaceTheMusic.Api.csproj" />
+    <ProjectReference Include="..\FaceTheMusic.Migrator\FaceTheMusic.Migrator.csproj" />
   </ItemGroup>
 
   <ItemGroup>

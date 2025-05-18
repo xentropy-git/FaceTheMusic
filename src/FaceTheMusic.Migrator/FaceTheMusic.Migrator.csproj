@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-FaceTheMusic.Migrator-37722abd-3d34-4ac6-aa17-a3b5ea3f135b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaceTheMusic.ServiceDefaults\FaceTheMusic.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\FaceTheMusic.Infrastructure\FaceTheMusic.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
