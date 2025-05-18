@@ -3,7 +3,7 @@ var builder = DistributedApplication.CreateBuilder(args);
 var sql = builder.AddSqlServer("sql")
     .WithLifetime(ContainerLifetime.Persistent);
 
-var db = sql.AddDatabase("db");
+var db = sql.AddDatabase("database");
 
 var apiService = builder.AddProject<Projects.FaceTheMusic_Api>("api")
     .WithReference(db)

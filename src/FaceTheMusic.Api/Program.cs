@@ -1,4 +1,6 @@
 using FaceTheMusic.Infrastructure.Repositories;
+using FaceTheMusic.Infrastructure.Data;
+using FaceTheMusic.Infrastructure.Extensions;
 using FaceTheMusic.Domain.Interfaces;
 using FaceTheMusic.Domain.Services;
 
@@ -6,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add service defaults (Aspire)
 builder.AddServiceDefaults();
+
+// Add Infrastructure
+//builder.Services.AddInfrastructure(builder.Configuration);
+builder.AddSqlServerDbContext<TriviaContext>("database");
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

@@ -11,4 +11,13 @@
     <ProjectReference Include="..\FaceTheMusic.Application\FaceTheMusic.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+  </ItemGroup>
+
 </Project>
