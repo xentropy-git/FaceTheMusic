@@ -11,7 +11,7 @@ builder.AddServiceDefaults();
 
 // Add Infrastructure
 //builder.Services.AddInfrastructure(builder.Configuration);
-builder.AddNpgsqlDbContext<TriviaContext>("database");
+builder.AddNpgsqlDbContext<ApplicationDbContext>("database");
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

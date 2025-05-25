@@ -29,7 +29,7 @@ public class Worker : BackgroundService
 		{
             _logger.LogInformation("Migrating database...");
 			using var scope = _serviceProvider.CreateScope();
-			var dbContext = scope.ServiceProvider.GetRequiredService<TriviaContext>();
+			var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 
 			await dbContext.Database.MigrateAsync(stoppingToken);
             _logger.LogInformation("Database migration completed.");

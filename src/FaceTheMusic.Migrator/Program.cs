@@ -4,7 +4,7 @@ using FaceTheMusic.Infrastructure.Data;
 var builder = Host.CreateApplicationBuilder(args);
 builder.AddServiceDefaults();
 
-builder.AddNpgsqlDbContext<TriviaContext>("triviadb");
+builder.AddNpgsqlDbContext<ApplicationDbContext>("triviadb");
 builder.Services.AddHostedService<Worker>();
 builder.Services.AddOpenTelemetry()
     .WithTracing(tracing => tracing.AddSource(Worker.ActivityName));

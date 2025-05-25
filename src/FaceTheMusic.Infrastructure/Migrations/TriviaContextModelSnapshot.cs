@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace FaceTheMusic.Infrastructure.Migrations
 {
-    [DbContext(typeof(TriviaContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class TriviaContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

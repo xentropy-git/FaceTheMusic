@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace FaceTheMusic.Infrastructure.Migrations
 {
-    [DbContext(typeof(TriviaContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250525175653_TriviaQuestions")]
     partial class TriviaQuestions
     {
