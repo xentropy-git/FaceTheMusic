@@ -10,7 +10,7 @@ public static class DependencyInjection
     public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<TriviaContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("database")
+            options.UseNpgsql(configuration.GetConnectionString("triviadb")
                 ?? throw new InvalidOperationException("Connection string 'database' not found.")));
     }
 }
